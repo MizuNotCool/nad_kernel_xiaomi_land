@@ -74,6 +74,7 @@ obj-$(CONFIG_FB_MSM_MDSS_SPI_PANEL) += mdss_spi_client.o
 obj-$(CONFIG_FB_MSM_MDSS_SPI_PANEL) += mdss_spi_panel.o
 
 obj-$(CONFIG_FB_MSM_MDSS_KCAL_CTRL) += mdss_mdp_kcal_ctrl.o
+obj-$(CONFIG_KLAPSE) += klapse.o
 
 obj-$(CONFIG_FB_MSM_MDSS_WRITEBACK) += mdss_wb.o
 
